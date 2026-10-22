@@ -1,4 +1,4 @@
-'''
+
 numbers = [1, 2, 3]
 for n in numbers:
     print(n * 10)
@@ -102,12 +102,12 @@ clean_cities=[]
 for city in cities:
     clean_cities.append(city.strip().lower())
 print(clean_cities)
-'''
+
 
 #Q6
-temp_num = 0
-number = [-14, -3, -99, -27, -56]
+number = [14, 3, 99, 27, 56]
+largest = number[0]
 for i in number:
-    if temp_num < i:
-        temp_num = i
-print(temp_num)
+    if i > largest:
+        largest = i
+print(largest)
